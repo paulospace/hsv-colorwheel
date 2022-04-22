@@ -1,0 +1,64 @@
+.HSVColorwheel {
+    max-width: 1000px;
+    display: flex;
+    padding: 20px;
+    border-radius: 1rem;
+    background: #0A0A0A;
+}
+
+.HSVColorwheel-colorwheel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("../../public/Color_circle_\(RGB\)\ 1.png");
+    background-size: contain;
+    margin: 0 20px 0 0;
+}
+
+.HSVColorwheel-colorwheel--tool {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #000000;
+}
+
+.HSVColorwheel-inputs {
+    flex-grow: 1;
+    padding: 20px;
+    font-size: 1.25em;
+    font-weight: 800;
+    color: #ffffff;
+
+}
+
+.HSVColorwheel-inputs--container {
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    margin: 1em 0;
+}
+
+.HSVColorwheel-inputs input {
+    width: 3em;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #ffffff;
+    outline: none;
+    font-weight: 800;
+    font-size: 1em;
+    color: #ffffff;
+}
+
+.HSVColorwheel-preview {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    margin: 0 0 20px 0;
+}
+
+
+.HSVColorwheel-preview:before {
+    content: "";
+    display:block;
+    padding-top: 100%
+}
