@@ -97,7 +97,7 @@ const HSVColorwheel = ({ width }) => {
             type="number"
             id="HSVColorwheel-input-v"
             onChange={(e) => handleColorChange(2, e)}
-            value={color[2] * 100}
+            value={Math.floor(color[2] * 100)}
           />
         </div>
       </div>

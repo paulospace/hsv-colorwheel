@@ -3,7 +3,8 @@
     display: flex;
     padding: 20px;
     border-radius: 1rem;
-    background: #0A0A0A;
+    background: #403E3B;
+    box-shadow: 0 0 0.5rem #000000;
 }
 
 .HSVColorwheel-colorwheel {
@@ -27,7 +28,7 @@
     padding: 20px;
     font-size: 1.25em;
     font-weight: 800;
-    color: #ffffff;
+    color: #bdbdbd;
 
 }
 
@@ -40,14 +41,17 @@
 
 .HSVColorwheel-inputs input {
     width: 3em;
+    margin-left: 1em;
     background: none;
     border: none;
-    border-bottom: 2px solid #ffffff;
+    border-bottom: 2px solid #bdbdbd;
     outline: none;
     font-weight: 800;
     font-size: 1em;
-    color: #ffffff;
+    color: #bdbdbd;
 }
+
+
 
 .HSVColorwheel-preview {
     width: 100%;
